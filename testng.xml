@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+    <!-- TEST-INVITESCHOOL -->
+    
+    <!-- <class name="testCases_inviteSchool.Test_User_Role"/> 
+      <class name="testCases_inviteSchool.TestEmailLogin"/>
+      <class name="testCases_inviteSchool.TestSchoolOnBoard"/> -->
+      
+     <!--   TEST-SCHOOLOPERATIONS-SCHOOLCONFIGURATION --> 
+      <class name="testCases_SchoolOperations_SchoolConfiguration.TestAdminLogin"/>
+      <class name="testCases_SchoolOperations_SchoolConfiguration.TestClickSchoolOperations"/> 
+                  <!-- CREATE-TEACHER -->
+<!--            
+ -->      
+             <!--SCHOOL OPERATION-->   
+   <class name="testCases_SchoolOperations_SchoolConfiguration.TestEmployeeLeave"/>  
+    <class name="testCases_SchoolOperations_SchoolConfiguration.TestEmployeeWorkingTime"/>
+        <class name="testCases_SchoolOperations_SchoolConfiguration.TestStudentAttendance"/>
+        <class name="testCases_SchoolOperations_SchoolConfiguration.TestSelectSchoolMode"/>
+        <class name="testCases_SchoolOperations_SchoolConfiguration.TestStudentHall"/>
+           
+<!--                          TEST-CREATE-CLASS 
+ -->              <class name="testCases_SchoolOperations_CreateClass.TestClickClass"/>
+               <class name="testCases_SchoolOperations_CreateClass.ClickAddClass"/>
+               <class name="testCases_SchoolOperations_CreateClass.TestClickCategory"/>
+              <class name="testCases_SchoolOperations_CreateClass.TestClickSubject"/>
+             <class name="testCases_SchoolOperations_CreateClass.TestClickSubjectMapping"/>
+             
+           
+                         <!--        TEST-MANAGE-CLASS    -->                
+               <!--  <class name="testCases_SchoolOperations_ManageClass.ClickManagClassNaV"/>
+                <class name="testCases_SchoolOperations_ManageClass.CreateStudentClassForm"/>
+                <class name="testCases_SchoolOperations_ManageClass.TestEditManageClass"/> -->
+                
+                
+                
+                   
+                        <!-- TEST-SCHOOLOPERATIONS-Manage Student  -->
+                       <!--  <class name="testCases_SchoolOperations_ManageStudent.TestManageStudent"/> 
+                        <class name="testCases_SchoolOperations_ManageStudent.TestAddStudent"/>           
+                        <class name="testCases_SchoolOperations_ManageStudent.TestEditStudent"/>   -->
+                        
+                        
+                        
+                        
+<!--                     TEST-TEACHER-CREATE TEACHER -->
+                                  <!--  <class name="testCases_TeacherAndStaffs_CreateTeacher.TestClickTeacherAndStaff"/>
+                              <class name="testCases_TeacherAndStaffs_CreateTeacher.TestClickTeacherBtn"/>
+                              <class name="testCases_TeacherAndStaffs_CreateTeacher.CreateTeacherForm"/>
+                              <class name="testCases_TeacherAndStaffs_CreateTeacher.TestEditCreatedTeacher"/>
+                                  <class name="testCases_Non_Teaching_Staff_Create_Non_Teaching_Staff.ClickNonTeachingStaffBtn"/>
+                                  <class name="testCases_Non_Teaching_Staff_Create_Non_Teaching_Staff.ClickAddEmployeeForm"/>
+                                  <class name="testCases_Non_Teaching_Staff_Create_Non_Teaching_Staff.EditNonTeachingStaff"/> -->
+                                  
+<!--                                   TEST-SCHOOLOPERATION-TIMETABLE
+ -->                                  <!-- <class name="testCases_SchoolOperations_ManageTimeTable.TestClickConfigTimeTable"/>
+                                <class name="testCases_SchoolOperations_ManageTimeTable.TestEditTimeTable"/> -->
+  </classes>                          
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
