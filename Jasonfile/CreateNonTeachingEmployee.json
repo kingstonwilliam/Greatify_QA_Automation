@@ -1,0 +1,28 @@
+{"NonTachingEmployee":[{
+"Name":"lithin",
+"Date":"20062002",
+"ChooseGender":"Male",
+"EmployeeId":"VDTECH038",
+"EmailAddress":"lithin@gmail.com",
+"MobileNo":"6383705215",
+"BloodGroup":"O+",
+"DrivingLicense":"123456789",
+"DrivingLicenseExpiryDate":"20062050",
+"FatherName":"ArjunDas",
+"FatherOccupation":"Bussiness",
+"MotherName":"RajaLakshmi",
+"MotherOccupation":"HouseWife",
+"NationalityName":"Indian",
+"ReligionName":"Christianity",
+"LanguageWritten":"English",
+"LanguageSpoken":"Tamil",
+"EnterAddress1":"176 MGR Nagar puzhal chennai-66",
+"EnterAddress2":"176 MGR Nagar puzhal chennai-66",
+"EnterMobileNo2":"6383705215",
+"Qualification":"BCA",
+"EnterYearPassingHere":"2023",
+"EnterCgpa":"8.6",
+"EnterUniversity":"SRM University",
+"EnterCtc":"500000"
+}
+]}

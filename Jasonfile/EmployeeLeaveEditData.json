@@ -1,0 +1,8 @@
+{
+  "EmployeeLeaveEdit":[{
+            "empLeaveType":"Flexi Holiday",
+		   "empNoOfDays":"1",
+		   "empLeaveDescription":"Going to church for good friday"
+  }
+  ]
+}

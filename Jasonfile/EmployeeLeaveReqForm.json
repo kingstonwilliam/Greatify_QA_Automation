@@ -1,0 +1,9 @@
+{
+	"EmployeeLeaveReq": [
+		{
+		   "LeaveType":"Formal Leave",
+		   "NoOfDays":"2",
+		   "LeaveDescription":"Suffering from fever for past 2 days"
+		}
+	]
+}

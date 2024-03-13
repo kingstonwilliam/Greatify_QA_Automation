@@ -1,0 +1,20 @@
+{
+	"schoolDetail": [
+		{
+			"syllabus": "CBSE",
+			"affilationNumber": "245566554234",
+			"mediumOfSchool": "English",
+			"contactName": "justin",
+			"contactNumber": "6383705215",
+			"websiteAdress": "https://www.kidzee.org.in/",
+			"latitude": "13.1333",
+			"longitude": "80.2161",
+			"address1":"No.79/1 5th Cross St Thillai Nagar Kolathur (Near Temple School)",
+			"address2":"No.79/1 5th Cross St Thillai Nagar Kolathur (Near Temple School)",
+			"country":"India",
+			"state":"Tamil Nadu",
+			"city":"Chennai",
+			"pincode":"600099"
+		}
+	]
+}

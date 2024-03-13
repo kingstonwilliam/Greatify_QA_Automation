@@ -1,0 +1,16 @@
+{
+	"firstName": "kingston",
+	"lastName": "messi",
+	"address": [
+		{
+			"street": "m.g.r",
+			"city": "chennai",
+			"state": "TamilNadu"
+		},
+		{
+			"street": "abc",
+			"city": "kanchipuram",
+			"state": "TamilNadu"
+		}
+	]
+}
