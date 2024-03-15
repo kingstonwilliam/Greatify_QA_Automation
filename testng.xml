@@ -16,18 +16,18 @@
 <!--            
  -->      
              <!--SCHOOL OPERATION-->   
-   <class name="testCases_SchoolOperations_SchoolConfiguration.TestEmployeeLeave"/>  
+  <!--  <class name="testCases_SchoolOperations_SchoolConfiguration.TestEmployeeLeave"/>  
     <class name="testCases_SchoolOperations_SchoolConfiguration.TestEmployeeWorkingTime"/>
         <class name="testCases_SchoolOperations_SchoolConfiguration.TestStudentAttendance"/>
         <class name="testCases_SchoolOperations_SchoolConfiguration.TestSelectSchoolMode"/>
-        <class name="testCases_SchoolOperations_SchoolConfiguration.TestStudentHall"/>
+        <class name="testCases_SchoolOperations_SchoolConfiguration.TestStudentHall"/> -->
            
 <!--                          TEST-CREATE-CLASS 
- -->              <class name="testCases_SchoolOperations_CreateClass.TestClickClass"/>
+ -->             <!--  <class name="testCases_SchoolOperations_CreateClass.TestClickClass"/>
                <class name="testCases_SchoolOperations_CreateClass.ClickAddClass"/>
                <class name="testCases_SchoolOperations_CreateClass.TestClickCategory"/>
               <class name="testCases_SchoolOperations_CreateClass.TestClickSubject"/>
-             <class name="testCases_SchoolOperations_CreateClass.TestClickSubjectMapping"/>
+             <class name="testCases_SchoolOperations_CreateClass.TestClickSubjectMapping"/> -->
              
            
                          <!--        TEST-MANAGE-CLASS    -->                
@@ -43,11 +43,13 @@
                         <class name="testCases_SchoolOperations_ManageStudent.TestAddStudent"/>           
                         <class name="testCases_SchoolOperations_ManageStudent.TestEditStudent"/>   -->
                         
-                        
+<!--                         TEST-SCHOOLOPERATION-TIMETABLE
+ -->                              <!--  <class name="testCases_SchoolOperations_ManageTimeTable.TestClickConfigTimeTable"/>
+                                <class name="testCases_SchoolOperations_ManageTimeTable.TestEditTimeTable"/> -->
                         
                         
 <!--                     TEST-TEACHER-CREATE TEACHER -->
-                                  <!--  <class name="testCases_TeacherAndStaffs_CreateTeacher.TestClickTeacherAndStaff"/>
+                                 <!--   <class name="testCases_TeacherAndStaffs_CreateTeacher.TestClickTeacherAndStaff"/>
                               <class name="testCases_TeacherAndStaffs_CreateTeacher.TestClickTeacherBtn"/>
                               <class name="testCases_TeacherAndStaffs_CreateTeacher.CreateTeacherForm"/>
                               <class name="testCases_TeacherAndStaffs_CreateTeacher.TestEditCreatedTeacher"/>
@@ -55,9 +57,10 @@
                                   <class name="testCases_Non_Teaching_Staff_Create_Non_Teaching_Staff.ClickAddEmployeeForm"/>
                                   <class name="testCases_Non_Teaching_Staff_Create_Non_Teaching_Staff.EditNonTeachingStaff"/> -->
                                   
-<!--                                   TEST-SCHOOLOPERATION-TIMETABLE
- -->                                  <!-- <class name="testCases_SchoolOperations_ManageTimeTable.TestClickConfigTimeTable"/>
-                                <class name="testCases_SchoolOperations_ManageTimeTable.TestEditTimeTable"/> -->
-  </classes>                          
+                        <!-- Test-Announcement --> 
+<!--                              <class name="testCases_SchoolOperations_Announcement.ClickAnnouncement"/>    
+ -->                     <class name="testCases_DashBoard_VisitorLogEntry.TestVisitorLogEntry"/>
+               
+  </classes>                      
   </test> <!-- Test -->
 </suite> <!-- Suite -->
