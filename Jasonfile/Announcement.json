@@ -1,5 +1,12 @@
 {"Announcement":[{
 "Title":"Teachers Meeting",
-"Date":"20-06-2002",
-"Message":"attend teacher meeting in staff Room"
+"category":"Teacher",
+"Date":"20-06-2024",
+"Selectclass":"5th",
+"Message":"attend teacher meeting in staff Room",
+"Title2":"Teacher Meeting PostPoned",
+"category2":"student",
+"Date2":"25-06-2002",
+"Selectclass2":"6th",
+"Message2":"Teacher meeting is postponed"
 }]}
