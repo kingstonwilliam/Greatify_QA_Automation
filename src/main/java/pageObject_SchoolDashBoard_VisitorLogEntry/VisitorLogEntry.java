@@ -55,4 +55,14 @@ public class VisitorLogEntry{
 	@FindBy(xpath = "/html/body/div[5]/div/div[4]/div/button")
 	public static WebElement success;
 	
+	//ENTER EXIT TIME CORRECTLY
+	@FindBy(css = "#visitorList > tbody > tr:nth-child(1) > td:nth-child(6) > div > svg")
+	public static WebElement ClickEditExitTime;
+	@FindBy(xpath = "//*[@id=\"out_edit_time\"]")
+	public static WebElement ClickChooseTime;
+	@FindBy(xpath="//*[@id=\"out_time_edit\"]/div/div/div[3]/button[2]")
+	public static WebElement ClickDone;
+	@FindBy(xpath = "/html/body/div[4]/div/div[3]/div/button")
+	public static WebElement ClickSuccess;
+	
 }

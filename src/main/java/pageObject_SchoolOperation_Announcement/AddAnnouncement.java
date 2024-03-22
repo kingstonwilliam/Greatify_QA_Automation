@@ -47,5 +47,12 @@ public class AddAnnouncement {
           public static WebElement DeleteConfimation; 
           @FindBy(xpath = "/html/body/div[6]/div/div[4]/div/button")
           public static WebElement DeleteSuccessOkBtn;
+          //PUBLISH
+          @FindBy(xpath = "//*[@id=\"DataTables_Table_0\"]/tbody/tr[1]/td[8]/button")
+          public static WebElement PublishNow;
+          @FindBy(xpath = "//*[@id=\"publish_announcment\"]/div/div/div[3]/button[2]")
+          public static WebElement PublishNow2;
+          @FindBy(xpath = "/html/body/div[6]/div/div[4]/div/button")
+          public static WebElement publishSuccessMsg;
 }         
 

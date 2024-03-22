@@ -45,7 +45,7 @@ public class ClickAnnouncement extends CommonFunction {
 		AddAnnouncement.ChooseDate.click();
 		robot.keyPress(KeyEvent.VK_CONTROL);
 		robot.keyPress(KeyEvent.VK_A);
-		//robot.keyRelease(0);
+		// robot.keyRelease(0);
 		AddAnnouncement.ChooseDate.sendKeys(user[2]);
 		Thread.sleep(2000);
 		AddAnnouncement.EnterMessage.sendKeys(user[4]);
@@ -87,6 +87,7 @@ public class ClickAnnouncement extends CommonFunction {
 		Robot robot = new Robot();
 		String[] user = datas.split(",");
 		PageFactory.initElements(driver, AddAnnouncement.class);
+		Thread.sleep(2000);
 		AddAnnouncement.ClickEditLogo.click();
 		Thread.sleep(2000);
 		AddAnnouncement.EditTitle.click();
@@ -114,16 +115,29 @@ public class ClickAnnouncement extends CommonFunction {
 		AddAnnouncement.UpdateBtn.click();
 		Thread.sleep(2000);
 		AddAnnouncement.EditSuccessBtn.click();
-		
+
 	}
-	    @Test(priority = (2))
-	    public void DeleteAnnouncement() throws InterruptedException {
-		PageFactory.initElements(driver, AddAnnouncement.class);
-		Thread.sleep(2000);
-		AddAnnouncement.DeleteLogo.click();
-		Thread.sleep(2000);
-		AddAnnouncement.DeleteConfimation.click();
-		Thread.sleep(2000);
-		AddAnnouncement.DeleteSuccessOkBtn.click();
+	@Test(priority=(2))
+	public void PublishNow() throws InterruptedException {
+	    PageFactory.initElements(driver, AddAnnouncement.class);
+	    Thread.sleep(2000);
+	    AddAnnouncement.PublishNow.click();
+	    Thread.sleep(2000);
+	    AddAnnouncement.PublishNow2.click();
+	    Thread.sleep(2000);
+	    AddAnnouncement.publishSuccessMsg.click();
+	    
+	    
 	}
+//	    @Test(priority = (3))
+//	    public void DeleteAnnouncement() throws InterruptedException {
+//		PageFactory.initElements(driver, AddAnnouncement.class);
+//		Thread.sleep(2000);
+//		AddAnnouncement.DeleteLogo.click();
+//		Thread.sleep(2000);
+//		AddAnnouncement.DeleteConfimation.click();
+//		Thread.sleep(2000);
+//		AddAnnouncement.DeleteSuccessOkBtn.click();
+//	}
+	
 }
