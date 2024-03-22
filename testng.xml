@@ -11,8 +11,8 @@
       
      <!--   TEST-SCHOOLOPERATIONS-SCHOOLCONFIGURATION --> 
       <class name="testCases_SchoolOperations_SchoolConfiguration.TestAdminLogin"/>
-      <class name="testCases_SchoolOperations_SchoolConfiguration.TestClickSchoolOperations"/> 
-                  <!-- CREATE-TEACHER -->
+<!--       <class name="testCases_SchoolOperations_SchoolConfiguration.TestClickSchoolOperations"/> 
+ -->                  <!-- CREATE-TEACHER -->
 <!--            
  -->      
              <!--SCHOOL OPERATION-->   
@@ -49,18 +49,21 @@
                         
                         
 <!--                     TEST-TEACHER-CREATE TEACHER -->
-                                 <!--   <class name="testCases_TeacherAndStaffs_CreateTeacher.TestClickTeacherAndStaff"/>
-                              <class name="testCases_TeacherAndStaffs_CreateTeacher.TestClickTeacherBtn"/>
-                              <class name="testCases_TeacherAndStaffs_CreateTeacher.CreateTeacherForm"/>
-                              <class name="testCases_TeacherAndStaffs_CreateTeacher.TestEditCreatedTeacher"/>
+                                   <class name="testCases_TeacherAndStaffs_CreateTeacher.TestClickTeacherAndStaff"/>
+                                  <!-- <class name="testCases_TeacherAndStaffs_CreateTeacher.TestClickTeacherBtn"/>
+                                  <class name="testCases_TeacherAndStaffs_CreateTeacher.CreateTeacherForm"/>
+                                  <class name="testCases_TeacherAndStaffs_CreateTeacher.TestEditCreatedTeacher"/>
                                   <class name="testCases_Non_Teaching_Staff_Create_Non_Teaching_Staff.ClickNonTeachingStaffBtn"/>
                                   <class name="testCases_Non_Teaching_Staff_Create_Non_Teaching_Staff.ClickAddEmployeeForm"/>
                                   <class name="testCases_Non_Teaching_Staff_Create_Non_Teaching_Staff.EditNonTeachingStaff"/> -->
+                                  <class name="testCases_TeacherAndStaffs_CreateTeacher.TestStaffSettlement"/>
                                   
                         <!-- Test-Announcement --> 
-<!--                              <class name="testCases_SchoolOperations_Announcement.ClickAnnouncement"/>    
- -->                     <class name="testCases_DashBoard_VisitorLogEntry.TestVisitorLogEntry"/>
-               
+<!--                              <class name="testCases_SchoolOperations_Announcement.ClickAnnouncement"/>   
+ -->                             <!-- <class name="testCases_TeacherDashBoard_" -->
+<!--                      <class name="testCases_DashBoard_VisitorLogEntry.TestVisitorLogEntry"/>-->             
+                                  <!-- <class name="testCases_School_DashBoard_Management_Fee.TestAdmissionFee"/>  
+                                 <class name="testCases_School_DashBoard_Management_Fee.TestManageFeeCollection"/>   -->
   </classes>                      
   </test> <!-- Test -->
 </suite> <!-- Suite -->
