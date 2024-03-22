@@ -1,0 +1,23 @@
+{"AddFee":[{
+"FeeName":"Tution",
+"Amount":"12000",
+"Choose":"25-04-2024",
+"GstPercentage":"10",
+"PF":"PF",
+"SplitAmount":"2000",
+"Balance":"Balance",
+"BalanceAmount":"10000",
+"FeeName2":"Tution",
+"FeeAmount":"12000",
+"ChooseDate":"12-03-2024",
+"EnterGst":"10",
+"DiscountName":"CBSE Trust",
+"DiscountPercentage":"10",
+"EnterAmount":"1000",
+"ChooseDiscountDate":"20-05-2024",
+"EnterDiscountAmount":"1000",
+"ApprovedName":"chaudary",
+"EnterAmount1":"5000",
+"EnterAmount2":"6000"
+
+}]}
